@@ -199,6 +199,10 @@ h1,h2,h3,.btn,.nav a,.eyebrow,.section-label,.coin-title{
   font-weight:700;
 }
 .hero-actions{display:flex;gap:14px;flex-wrap:wrap}
+.hero-slogan span{
+  display:block;
+  white-space:nowrap;
+}
 .hero-visual{
   min-height:520px;
   position:relative;
@@ -206,14 +210,7 @@ h1,h2,h3,.btn,.nav a,.eyebrow,.section-label,.coin-title{
   place-items:center;
 }
 .hero-visual:before{
-  content:"";
-  position:absolute;
-  inset:8% 0 0 8%;
-  background:url("../img/agave-botella.webp") center/cover no-repeat;
-  filter:saturate(.82) contrast(.94);
-  opacity:.33;
-  border-radius:2px;
-  mask-image:linear-gradient(90deg,transparent 0%,#000 22%,#000 78%,transparent 100%);
+  content:none;
 }
 .guardian-coin{
   width:min(470px,78%);
@@ -287,23 +284,14 @@ h1,h2,h3,.btn,.nav a,.eyebrow,.section-label,.coin-title{
   overflow:hidden;
 }
 .ok-door:after{
-  content:"O.K.";
-  position:absolute;
-  left:44px;
-  top:76px;
-  font-family:var(--serif);
-  font-size:4.6rem;
-  letter-spacing:.02em;
-  color:rgba(28,31,27,.68);
+  content:none;
 }
 .story-copy{
   padding:8px 16px 8px 0;
-  column-count:2;
-  column-gap:42px;
-  column-rule:1px solid var(--line-soft);
+  max-width:720px;
+  justify-self:center;
 }
 .story-copy h2{
-  column-span:all;
   text-align:center;
   margin:0 0 18px;
   font-size:clamp(1.8rem,3vw,2.75rem);
@@ -312,14 +300,14 @@ h1,h2,h3,.btn,.nav a,.eyebrow,.section-label,.coin-title{
 .story-copy p{font-size:.96rem;margin:0 0 12px;color:#2c2b22}
 .zero-line{
   text-align:center;
-  column-span:all;
   font-family:var(--serif);
   color:var(--bronze);
-  font-size:1.48rem !important;
-  line-height:1.25 !important;
-  letter-spacing:.08em;
-  margin:16px 0 !important;
+  font-size:1.25rem !important;
+  line-height:1.35 !important;
+  letter-spacing:.06em;
+  margin:16px auto !important;
   text-transform:uppercase;
+  max-width:520px;
 }
 .values-strip{
   display:grid;
