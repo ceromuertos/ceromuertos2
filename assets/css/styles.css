@@ -192,7 +192,7 @@ h1,h2,h3,.btn,.nav a,.eyebrow,.section-label,.coin-title{
   max-width:500px;
   margin:24px 0 26px;
   font-family:var(--serif);
-  font-size:.98rem;
+  font-size:.88rem;
   letter-spacing:.035em;
   text-transform:uppercase;
   color:#182b39;
@@ -589,7 +589,7 @@ h1,h2,h3,.btn,.nav a,.eyebrow,.section-label,.coin-title{
   .site-wrap,.header-inner,.footer-inner{width:min(100% - 24px,1180px)}
   .hero-logo{width:118px}
   .hero h1{font-size:clamp(2rem,12vw,3.1rem);letter-spacing:.045em}
-  .hero-text{font-size:.84rem}
+  .hero-text{font-size:.80rem}
   .hero-actions,.age-actions{flex-direction:column;align-items:stretch}
   .product-card{grid-template-columns:1fr;text-align:center}
   .product-card img{max-height:250px}
