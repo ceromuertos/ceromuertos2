@@ -219,13 +219,7 @@ h1,h2,h3,.btn,.nav a,.eyebrow,.section-label,.coin-title{
   filter:drop-shadow(0 28px 44px rgba(25,15,7,.28));
 }
 .tradicion-badge{
-  position:absolute;
-  right:24px;
-  top:34px;
-  width:128px;
-  opacity:.96;
-  z-index:3;
-  filter:drop-shadow(0 12px 20px rgba(36,22,8,.14));
+  display:none;
 }
 .agave-leaves{
   display:none;
