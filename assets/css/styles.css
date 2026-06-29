@@ -228,17 +228,7 @@ h1,h2,h3,.btn,.nav a,.eyebrow,.section-label,.coin-title{
   filter:drop-shadow(0 12px 20px rgba(36,22,8,.14));
 }
 .agave-leaves{
-  position:absolute;
-  left:8px;
-  bottom:14px;
-  width:230px;
-  height:200px;
-  background:
-    radial-gradient(ellipse at bottom,rgba(77,110,112,.25),transparent 65%),
-    linear-gradient(30deg,transparent 38%,rgba(32,72,84,.28) 38% 44%,transparent 44%),
-    linear-gradient(-22deg,transparent 40%,rgba(32,72,84,.22) 40% 46%,transparent 46%);
-  opacity:.70;
-}
+  display:none;
 .section{
   padding:28px 0;
 }
@@ -278,8 +268,8 @@ h1,h2,h3,.btn,.nav a,.eyebrow,.section-label,.coin-title{
   min-height:278px;
   border:1px solid var(--line-soft);
   background:
-    linear-gradient(90deg,rgba(20,16,10,.18),rgba(20,16,10,.04)),
-    url("../img/canon-historia.webp") center/cover no-repeat;
+    linear-gradient(90deg,rgba(20,16,10,.10),rgba(244,236,217,.02)),
+    url("../img/canon-historia.webp") center 42%/cover no-repeat;
   position:relative;
   overflow:hidden;
 }
