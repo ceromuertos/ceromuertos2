@@ -130,7 +130,7 @@ h1,h2,h3,.btn,.nav a,.eyebrow,.section-label,.coin-title{
   text-transform:uppercase;
   box-shadow:0 8px 0 rgba(167,121,52,.22);
 }
-.btn:after{content:"&#10022;";color:var(--gold-soft)}
+.btn:after{content:"&#10022";color:var(--gold-soft)}
 .btn-outline{
   background:transparent;
   color:var(--ink);
@@ -171,7 +171,7 @@ h1,h2,h3,.btn,.nav a,.eyebrow,.section-label,.coin-title{
   position:relative;
 }
 .divider:after{
-  content:"&#10022;";
+  content:"&#10022";
   color:var(--gold);
   position:absolute;
   left:50%;
@@ -405,7 +405,7 @@ h1,h2,h3,.btn,.nav a,.eyebrow,.section-label,.coin-title{
   color:#30271d;
 }
 .product-card li{margin:8px 0}
-.product-card li:before{content:"&#10022;";color:var(--gold);margin-right:8px}
+.product-card li:before{content:"&#10022";color:var(--gold);margin-right:8px}
 .product-card.dragon h3{color:var(--wine)}
 .more-products{text-align:center;margin-top:-8px;position:relative;z-index:2}
 
