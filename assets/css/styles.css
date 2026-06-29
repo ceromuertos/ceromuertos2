@@ -213,7 +213,7 @@ h1,h2,h3,.btn,.nav a,.eyebrow,.section-label,.coin-title{
   content:none;
 }
 .guardian-coin{
-  width:min(470px,78%);
+  width:min(570px,88%);
   position:relative;
   z-index:2;
   filter:drop-shadow(0 28px 44px rgba(25,15,7,.28));
@@ -559,7 +559,7 @@ h1,h2,h3,.btn,.nav a,.eyebrow,.section-label,.coin-title{
   .nav{display:none}
   .hero{grid-template-columns:1fr;min-height:auto;padding-top:24px}
   .hero-visual{min-height:360px}
-  .guardian-coin{width:min(360px,70%)}
+  .guardian-coin{width:min(430px,82%)}
   .tradicion-badge{width:98px;right:8px}
   .story-grid{grid-template-columns:1fr}
   .story-copy{column-count:1;padding:0}
@@ -581,4 +581,7 @@ h1,h2,h3,.btn,.nav a,.eyebrow,.section-label,.coin-title{
   .values-strip>div:last-child{border-bottom:0}
   .insta-tiles{grid-template-columns:repeat(2,1fr)}
   .privacy-card{padding:28px 20px}
+  .guardian-coin{
+  width:min(360px,86%);
 }
+
