@@ -280,15 +280,7 @@ h1,h2,h3,.btn,.nav a,.eyebrow,.section-label,.coin-title{
   overflow:hidden;
 }
 .ok-door:after{
-  content:"O.K.";
-  position:absolute;
-  left:44px;
-  top:76px;
-  font-family:var(--serif);
-  font-size:4.6rem;
-  letter-spacing:.02em;
-  color:rgba(28,31,27,.68);
-}
+  content:none;
 .story-copy{
   padding:8px 16px 8px 0;
   max-width:720px;
