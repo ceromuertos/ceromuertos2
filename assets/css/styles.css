@@ -298,12 +298,26 @@ h1,h2,h3,.btn,.nav a,.eyebrow,.section-label,.coin-title{
 }
 .story-copy{
   padding:8px 16px 8px 0;
-  column-count:2;
-  column-gap:42px;
-  column-rule:1px solid var(--line-soft);
+  max-width:720px;
+}
+
+.story-copy p{
+  max-width:680px;
+}
+
+.story-copy p,
+.zero-line{
+  text-align:center;
+  font-family:var(--serif);
+  color:var(--bronze);
+  font-size:1.25rem !important;
+  line-height:1.35 !important;
+  letter-spacing:.06em;
+  margin:16px auto !important;
+  text-transform:uppercase;
+  max-width:520px;
 }
 .story-copy h2{
-  column-span:all;
   text-align:center;
   margin:0 0 18px;
   font-size:clamp(1.8rem,3vw,2.75rem);
