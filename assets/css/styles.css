@@ -282,17 +282,20 @@ h1,h2,h3,.btn,.nav a,.eyebrow,.section-label,.coin-title{
   font-size:clamp(1.8rem,3vw,2.75rem);
   text-transform:uppercase;
 }
-.story-copy p{font-size:.96rem;margin:0 0 12px;color:#2c2b22}
-.zero-line{
-  text-align:center;
-  font-family:var(--serif);
-  color:var(--bronze);
-  font-size:1.25rem !important;
-  line-height:1.35 !important;
-  letter-spacing:.06em;
-  margin:16px auto !important;
-  text-transform:uppercase;
-  max-width:520px;
+.story-copy p{
+  font-size:.96rem;
+  margin:0 0 12px;
+  color:#2c2b22;
+}
+.story-copy{
+  padding:8px 24px 8px 0;
+  max-width:720px;
+  justify-self:center;
+}
+.story-copy p:not(.eyebrow):not(.zero-line){
+  text-align:justify;
+  text-align-last:left;
+  hyphens:auto;
 }
 .values-strip{
   display:grid;
