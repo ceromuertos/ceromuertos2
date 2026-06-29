@@ -130,7 +130,7 @@ h1,h2,h3,.btn,.nav a,.eyebrow,.section-label,.coin-title{
   text-transform:uppercase;
   box-shadow:0 8px 0 rgba(167,121,52,.22);
 }
-.btn:after{content:"✦";color:var(--gold-soft)}
+.btn:after{content:"âœ¦";color:var(--gold-soft)}
 .btn-outline{
   background:transparent;
   color:var(--ink);
@@ -171,7 +171,7 @@ h1,h2,h3,.btn,.nav a,.eyebrow,.section-label,.coin-title{
   position:relative;
 }
 .divider:after{
-  content:"✦";
+  content:"âœ¦";
   color:var(--gold);
   position:absolute;
   left:50%;
@@ -182,7 +182,7 @@ h1,h2,h3,.btn,.nav a,.eyebrow,.section-label,.coin-title{
 }
 .hero h1{
   margin:0;
-  font-size:clamp(1.9rem,3.4vw,3.65rem);
+  font-size:clamp(2.35rem,4.25vw,4.55rem);
   line-height:1.08;
   color:var(--ink);
   letter-spacing:.07em;
@@ -192,7 +192,7 @@ h1,h2,h3,.btn,.nav a,.eyebrow,.section-label,.coin-title{
   max-width:500px;
   margin:24px 0 26px;
   font-family:var(--serif);
-  font-size:.88rem;
+  font-size:.98rem;
   letter-spacing:.035em;
   text-transform:uppercase;
   color:#182b39;
@@ -206,7 +206,14 @@ h1,h2,h3,.btn,.nav a,.eyebrow,.section-label,.coin-title{
   place-items:center;
 }
 .hero-visual:before{
-  content:none;
+  content:"";
+  position:absolute;
+  inset:8% 0 0 8%;
+  background:url("../img/agave-botella.webp") center/cover no-repeat;
+  filter:saturate(.82) contrast(.94);
+  opacity:.33;
+  border-radius:2px;
+  mask-image:linear-gradient(90deg,transparent 0%,#000 22%,#000 78%,transparent 100%);
 }
 .guardian-coin{
   width:min(470px,78%);
@@ -270,7 +277,6 @@ h1,h2,h3,.btn,.nav a,.eyebrow,.section-label,.coin-title{
   align-items:stretch;
   padding:22px;
 }
-
 .ok-door{
   min-height:278px;
   border:1px solid var(--line-soft);
@@ -280,98 +286,24 @@ h1,h2,h3,.btn,.nav a,.eyebrow,.section-label,.coin-title{
   position:relative;
   overflow:hidden;
 }
-
 .ok-door:after{
-  display:none;
+  content:"O.K.";
+  position:absolute;
+  left:44px;
+  top:76px;
+  font-family:var(--serif);
+  font-size:4.6rem;
+  letter-spacing:.02em;
+  color:rgba(28,31,27,.68);
 }
-
 .story-copy{
   padding:8px 16px 8px 0;
   column-count:2;
   column-gap:42px;
   column-rule:1px solid var(--line-soft);
 }
-
 .story-copy h2{
   column-span:all;
-  text-align:center;
-  margin:0 0 18px;
-  font-size:clamp(1.8rem,3vw,2.75rem);
-  text-transform:uppercase;
-}
-
-.story-copy p{
-  font-size:.96rem;
-  margin:0 0 12px;
-  color:#2c2b22;
-}
-
-.zero-line{
-  text-align:center;
-  column-span:all;
-  font-family:var(--serif);
-  color:var(--bronze);
-  font-size:1.48rem !important;
-  line-height:1.25 !important;
-  letter-spacing:.08em;
-  margin:16px 0 !important;
-  text-transform:uppercase;
-}
-
-.values-strip{
-  display:grid;
-  grid-template-columns:1fr 1fr 1fr;
-  gap:0;
-  margin-top:16px;
-  border:1px solid var(--line);
-}
-
-.values-strip > div{
-  min-height:188px;
-  padding:22px;
-  display:grid;
-  place-items:center;
-  text-align:center;
-  border-right:1px solid var(--line);
-  background:rgba(251,246,234,.55);
-}
-
-.values-strip > div:last-child{
-  border-right:0;
-}
-.ok-door{
-  min-height:278px;
-  border:1px solid var(--line-soft);
-  background:
-    linear-gradient(90deg,rgba(38,31,20,.10),rgba(244,236,217,.02)),
-    url("../img/agave-botella.webp") center/cover no-repeat;
-  position:relative;
-  overflow:hidden;
-}
-.ok-door:after{
-  content:none;
-.story-copy{
-  padding:8px 16px 8px 0;
-  max-width:720px;
-}
-
-.story-copy p{
-  max-width:680px;
-}
-
-.story-copy p,
-.zero-line{
-  text-align:center;
-  font-family:var(--serif);
-  color:var(--bronze);
-  font-size:1.25rem !important;
-  line-height:1.35 !important;
-  letter-spacing:.06em;
-  margin:16px auto !important;
-  text-transform:uppercase;
-  max-width:520px;
-}
-.story-copy h2{
   text-align:center;
   margin:0 0 18px;
   font-size:clamp(1.8rem,3vw,2.75rem);
@@ -489,7 +421,7 @@ h1,h2,h3,.btn,.nav a,.eyebrow,.section-label,.coin-title{
   color:#30271d;
 }
 .product-card li{margin:8px 0}
-.product-card li:before{content:"✦";color:var(--gold);margin-right:8px}
+.product-card li:before{content:"âœ¦";color:var(--gold);margin-right:8px}
 .product-card.dragon h3{color:var(--wine)}
 .more-products{text-align:center;margin-top:-8px;position:relative;z-index:2}
 
@@ -656,8 +588,8 @@ h1,h2,h3,.btn,.nav a,.eyebrow,.section-label,.coin-title{
 @media (max-width:640px){
   .site-wrap,.header-inner,.footer-inner{width:min(100% - 24px,1180px)}
   .hero-logo{width:118px}
-  .hero h1{font-size:clamp(1.7rem,9.5vw,2.55rem);letter-spacing:.045em}
-  .hero-text{font-size:.80rem}
+  .hero h1{font-size:clamp(2rem,12vw,3.1rem);letter-spacing:.045em}
+  .hero-text{font-size:.84rem}
   .hero-actions,.age-actions{flex-direction:column;align-items:stretch}
   .product-card{grid-template-columns:1fr;text-align:center}
   .product-card img{max-height:250px}
