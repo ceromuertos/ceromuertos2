@@ -319,6 +319,17 @@ h1,h2,h3,.btn,.nav a,.eyebrow,.section-label,.coin-title{
 .values-strip > div:last-child{border-right:0}
 .value-photo{
   background:
+    linear-gradient(rgba(16,40,59,.04),rgba(16,40,59,.06));
+}
+
+.value-photo-left{
+  background:
+    linear-gradient(rgba(16,40,59,.04),rgba(16,40,59,.06)),
+    url("../img/hecho-en-mexico-nueva.webp") center/cover no-repeat !important;
+}
+
+.value-photo-right{
+  background:
     linear-gradient(rgba(16,40,59,.04),rgba(16,40,59,.06)),
     url("../img/agave-botella.webp") center/cover no-repeat !important;
 }
