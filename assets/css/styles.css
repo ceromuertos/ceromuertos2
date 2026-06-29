@@ -629,9 +629,5 @@ h1,h2,h3,.btn,.nav a,.eyebrow,.section-label,.coin-title{
   .guardian-coin{
     width:min(360px,86%);
   }
-@media (min-width:981px){
-  .hero-visual .guardian-coin{
-    transform:translateX(30px);
-  }
 }
 }
