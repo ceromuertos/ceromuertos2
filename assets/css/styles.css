@@ -423,7 +423,7 @@ h1,h2,h3,.btn,.nav a,.eyebrow,.section-label,.coin-title{
 }
 .origin h2,.guardian-section h2{
   margin:0 0 16px;
-  font-size:clamp(1.75rem,3vw,2.75rem);
+   font-size:clamp(1.35rem,2.2vw,2.05rem);
   text-transform:uppercase;
 }
 .origin p,.guardian-section p{font-size:.98rem;color:#2b271f;margin:0 0 12px}
