@@ -278,8 +278,8 @@ h1,h2,h3,.btn,.nav a,.eyebrow,.section-label,.coin-title{
   min-height:278px;
   border:1px solid var(--line-soft);
   background:
-    linear-gradient(90deg,rgba(38,31,20,.10),rgba(244,236,217,.02)),
-    url("../img/agave-botella.webp") center/cover no-repeat;
+    linear-gradient(90deg,rgba(20,16,10,.18),rgba(20,16,10,.04)),
+    url("../img/canon-historia.png") center/cover no-repeat;
   position:relative;
   overflow:hidden;
 }
