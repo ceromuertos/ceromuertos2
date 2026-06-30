@@ -264,7 +264,7 @@ h1,h2,h3,.btn,.nav a,.eyebrow,.section-label,.coin-title{
   border:1px solid var(--line-soft);
   background:
     linear-gradient(90deg,rgba(20,16,10,.10),rgba(244,236,217,.02)),
-    url("../img/canon-historia.webp") center 42%/cover no-repeat;
+    url("../img/canonrotoweb.webp") center 42%/cover no-repeat;
   position:relative;
   overflow:hidden;
 }
