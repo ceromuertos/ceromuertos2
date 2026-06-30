@@ -635,14 +635,30 @@ h1,h2,h3,.btn,.nav a,.eyebrow,.section-label,.coin-title{
 }
 
 @media (max-width:640px){
-  .guardian-coin-right{
-    left:30px;
-  }
-  @media (max-width:640px){
-  .hero-copy .hero-logo{
-    display:block !important;
+  .hero-copy .hero-slogan{
+    text-align:center !important;
+    width:100%;
     margin-left:auto !important;
     margin-right:auto !important;
   }
-} lo
+
+  .hero-copy .hero-slogan span{
+    text-align:center !important;
+  }
+  @media (max-width:640px){
+  .hero-copy{
+    padding-left:0 !important;
+  }
+
+  .hero-copy .hero-slogan{
+    text-align:center !important;
+    width:100%;
+    margin-left:auto !important;
+    margin-right:auto !important;
+  }
+
+  .hero-copy .hero-slogan span{
+    text-align:center !important;
+  }
+}
 }
