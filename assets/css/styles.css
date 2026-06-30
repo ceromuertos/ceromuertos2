@@ -638,5 +638,11 @@ h1,h2,h3,.btn,.nav a,.eyebrow,.section-label,.coin-title{
   .guardian-coin-right{
     left:30px;
   }
-}
+  @media (max-width:640px){
+  .hero-copy .hero-logo{
+    display:block !important;
+    margin-left:auto !important;
+    margin-right:auto !important;
+  }
+} lo
 }
