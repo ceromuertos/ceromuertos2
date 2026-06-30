@@ -99,7 +99,7 @@ h1,h2,h3,.btn,.nav a,.eyebrow,.section-label,.coin-title{
   align-items:center;
   gap:28px;
 }
-.brand img{width:120px}
+.brand img{width:128px}
 .nav{
   flex:1;
   display:flex;
