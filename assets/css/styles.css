@@ -914,6 +914,11 @@ h1,h2,h3,.btn,.nav a,.eyebrow,.section-label,.coin-title{
     width:min(100% - 24px,1180px);
   }
 
+  .hero-visual img[src*="botonfinal"]{
+  left:0 !important;
+  transform:none !important;
+}
+  
   .hero{
     grid-template-columns:1fr;
     min-height:auto;
