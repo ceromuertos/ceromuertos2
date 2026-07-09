@@ -1,31 +1,21 @@
-# O.K. Cero Muertos — GitHub Pages
+# O.K. Cero Muertos — sitio bilingüe
 
-Paquete completo para publicar en GitHub Pages.
+Paquete completo para GitHub Pages.
 
-## Estructura
+## Páginas
+- `index.html` — español
+- `en.html` — inglés
+- `aviso-de-privacidad.html` — aviso en español
+- `privacy-policy.html` — privacy policy en inglés
 
-- `index.html`
-- `aviso-de-privacidad.html`
-- `404.html`
-- `CNAME`
-- `robots.txt`
-- `sitemap.xml`
-- `site.webmanifest`
-- `assets/css/styles.css`
-- `assets/js/main.js`
-- `assets/img/`
-- `assets/icons/`
+## Assets importantes
+- `assets/img/wallpaper.webp` — hero a color
+- `assets/icons/iconicosinfondo.webp` — logo grande del hero
+- `assets/icons/logosimplecobre.webp` — logo header
+- `assets/icons/logosimplemarfil.webp` — logo footer
+- `assets/icons/iconicofondo.webp` — edad / icono institucional
+- `assets/img/tequilarender.webp`
+- `assets/img/agavedragonrender.webp`
+- `assets/img/freespiritrender.webp`
 
-## Publicación
-
-Sube el contenido de esta carpeta a la raíz del repositorio, no la carpeta completa dentro del repositorio.
-
-En GitHub:
-Settings > Pages > Deploy from branch > main > /root
-
-Dominio:
-`ceromuertos.com`
-
-## Tipografía
-
-El CSS prioriza `Trajan Pro` / `Trajan Pro Bold`. No se incluye el archivo de fuente por licencia.
+Sube el contenido de esta carpeta a la raíz del repositorio.
