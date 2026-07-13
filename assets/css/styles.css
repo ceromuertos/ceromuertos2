@@ -615,3 +615,13 @@ h1,h2,h3,.btn,.nav a,.eyebrow,.section-label,.coin-title,.language-link{
   .values-strip>div:last-child{border-bottom:0}
   .privacy-card{padding:28px 20px}
 }
+@media (min-width:641px){
+  .product-card:nth-child(1):after{
+    top:10px;
+    left:10px;
+    width:calc(100% - 20px);
+    padding:14px 18px;
+    box-sizing:border-box;
+  }
+}
+}
